@@ -6,9 +6,9 @@
   "scripts": {
     "develop": "strapi develop",
     "develop:ce": "STRAPI_DISABLE_EE=true strapi develop",
-    "start": "strapi start",
-    "build": "strapi build",
-    "build:ce": "STRAPI_DISABLE_EE=true strapi build",
+    "start": "node init && strapi start",
+    "build": "node init && strapi build",
+    "build:ce": "node init && STRAPI_DISABLE_EE=true strapi build",
     "strapi": "strapi"
   },
   "dependencies": {

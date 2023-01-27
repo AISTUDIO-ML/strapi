@@ -79,7 +79,6 @@ $RECYCLE.BIN/
 *#
 .idea
 nbproject
-.vscode/
 .eslintcache
 
 
@@ -138,3 +137,7 @@ schema.graphql
 front-workspace.code-workspace
 .yarn
 .yarnrc
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
